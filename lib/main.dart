@@ -13,27 +13,21 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
 
-      backgroundColor: Colors.grey,
+      backgroundColor: Colors.blugrey,
 
       appBar: AppBar(
         title: Text('My App'),
         backgroundColor: Colors.blue,
-        leading: const Icon(Icons.home),
+        leading: Icon(Icons.home),
       ),
       
-      body: Container(
-        color: Colors.red,
-        width: double.infinity,
-        height: 90.0,
-        child: const Text(
-          'Selamat Datang!',
-          style: TextStyle(
-            fontFamily: "Times New Roman",
-            fontSize: 30.0,
-            fontWeight: FontWeight.bold,
+      body: 
+      Container(
+        color: Colors.grey,
+        width: 100.0,
+        height: 90,
+        child: Text('Selamat Datang!'),
           ),
-          ),
-      ),
   
     );
   }
